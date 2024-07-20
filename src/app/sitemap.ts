@@ -3,7 +3,7 @@ import { MetadataRoute } from "next";
 export default function sitemap(): MetadataRoute.Sitemap {
     return [
         {
-            url: 'https://',
+            url: 'https://anyera-test.vercel.app/',
             lastModified: new Date(),
             changeFrequency: "daily",
             priority: 1,

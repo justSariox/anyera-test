@@ -6,7 +6,7 @@ export default function robots(): MetadataRoute.Robots {
             userAgent: '*',
             allow: '/',
         },
-        sitemap: 'https://*/sitemap.xml',
-        host: 'https://'
+        sitemap: 'https://anyera-test.vercel.app/sitemap.xml',
+        host: 'https://anyera-test.vercel.app/'
     }
 }
