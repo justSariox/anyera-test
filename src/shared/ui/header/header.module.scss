@@ -1,0 +1,44 @@
+.headerContainer {
+  margin: 0 auto;
+  max-width: 1440px;
+  display: flex;
+  justify-content: space-between;
+  padding: 30px 40px;
+  @media (max-width: 580px) {
+    padding: 20px 15px;
+  }
+  @media (max-width: 380px) {
+    gap: 10px;
+  }
+}
+
+.overlay {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background: rgba(106, 26, 0, 0.3);
+  z-index: 9999;
+  display: none;
+  cursor: pointer;
+}
+
+.overlay.active {
+  display: block;
+}
+
+.menu {
+  display: flex;
+  padding: 10px 24px 10px 16px;
+  justify-content: center;
+  align-items: center;
+  column-gap: 8px;
+  height: 40px;
+  border: none;
+  border-radius: 100px;
+  background: #fff;
+  box-shadow: 0 1px 3px 1px rgba(0, 0, 0, 0.15);
+  cursor: pointer;
+  transition: all 0.2s ease-in;
+}

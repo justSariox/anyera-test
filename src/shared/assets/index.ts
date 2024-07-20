@@ -1,0 +1,1 @@
+export { Close, Logo, More, User, Vk, Search, Email, Whatsapp, Telegram } from './svg'

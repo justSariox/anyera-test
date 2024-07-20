@@ -1,0 +1,71 @@
+.footerContainer {
+  justify-content: space-between;
+  margin: 0 auto;
+  padding: 30px 40px;
+  max-width: 1440px;
+  display: flex;
+  @media (max-width: 580px) {
+    padding: 20px 15px;
+    flex-direction: column;
+
+  }
+  @media (max-width: 380px) {
+    gap: 10px;
+  }
+
+  .logo {
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+
+
+    svg {
+      width: 100%;
+      @media (max-width: 580px) {
+        width: 250px;
+
+      }
+    }
+    .description {
+      color: black;
+      font-size: 14px;
+      line-height: 16px;
+
+    }
+
+    @media (max-width: 580px) {
+      align-items: center;
+      justify-content: center;
+      margin-bottom: 30px;
+      gap: 8px;
+    }
+  }
+
+  .linksBlock {
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+
+    @media (max-width: 580px) {
+      align-items: center;
+      justify-content: center;
+    }
+
+    .links {
+      display: flex;
+      gap: 20px;
+      align-items: center;
+      transition: all 0.2s ease-in;
+    }
+
+    .confidentiality {
+      color: #383838;
+      font-size: 14px;
+      line-height: 16px;
+      transition: all 0.2s ease-in;
+      @media (max-width: 390px) {
+        font-size: 12px;
+      }
+    }
+  }
+}

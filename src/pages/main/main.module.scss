@@ -1,0 +1,73 @@
+.mainPage {
+  background: url("../../shared/assets/img/bg.png") 50% / cover no-repeat;
+  padding: 90px 40px 170px 50px;
+}
+
+.pageContainer {
+  margin: 0 auto;
+  max-width: 1200px;
+  min-height: calc(100vh - 255px);
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.title {
+  display: flex;
+  flex-direction: column;
+  max-width: 100%;
+  row-gap: 40px;
+  font-family: 'Cera PRO Regular', sans-serif;
+  color: white;
+  font-weight: 400;
+  margin-bottom: 60px;
+}
+
+.top {
+  font-size: 18px;
+}
+
+.bottom {
+  font-size: 24px;
+}
+
+.h1 {
+  width: 100%;
+  color: white;
+  font-size: 70px;
+  font-weight: 700;
+  line-height: 75px;
+}
+
+@media (max-width: 768px) {
+  .mainPage {
+    padding: 140px 40px 295px 50px;
+  }
+
+  .title {
+    row-gap: 25px;
+    margin-bottom: 52px;
+  }
+
+  .h1 {
+    font-size: 60px;
+  }
+}
+
+@media (max-width: 580px) {
+  .h1 {
+    font-size: 48px;
+    line-height: 50px;
+  }
+}
+
+@media (max-width: 430px) {
+  .mainPage {
+    padding: 60px 15px 180px;
+  }
+
+  .h1 {
+    font-size: 36px;
+    line-height: 40px;
+  }
+}

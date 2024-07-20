@@ -1,0 +1,97 @@
+.form {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  gap: 15px;
+
+  .title {
+
+    color: black;
+    font-size: 40px;
+    font-weight: 700;
+    margin-bottom: 15px;
+    @media screen and (max-width: 560px) {
+      align-self: flex-start;
+    }
+  }
+
+  input {
+    padding: 15px 20px;
+    border-radius: 100px;
+    border: 1px solid #dddddd;
+    outline: none;
+
+  }
+
+  .login, .password {
+    width: 100%;
+  }
+
+  .checkbox {
+    margin: 15px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 100%;
+    gap: 30px;
+
+    label {
+      display: flex;
+      align-items: center;
+      color: #656565;
+      font-size: 16px;
+
+    }
+
+    input {
+      width: 30px;
+      height: 30px;
+      border-radius: 5px;
+      border: 1px solid #b4b4b4;
+      background: #fff;
+      margin-right: 10px;
+    }
+
+    a {
+      color: #014e87;
+      font-size: 14px;
+      line-height: 24px;
+    }
+  }
+  .button {
+    width: 100%;
+    padding: 10px 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 15px;
+    border: none;
+    border-radius: 100px;
+    background: #E83801;
+    color: #fff;
+    font-size: 14px;
+    font-weight: 700;
+    line-height: 24px;
+    transition: all 0.2s ease-in;
+    cursor: pointer;
+
+    &:hover {
+      background: #000;
+    }
+  }
+  .caption {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    column-gap: 13px;
+    color: #656565;
+    font-size: 14px;
+
+    a {
+      color: #2d6cb4;
+      font-size: 12px;
+    }
+  }
+}
